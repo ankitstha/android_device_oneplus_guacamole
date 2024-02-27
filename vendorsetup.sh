@@ -1,7 +1,7 @@
 # Clone/Fetch Upstream Device Dependencies
 # Device Tree
 echo "Cloning sm8150-Common Tree"
-git clone --depth=1 https://github.com/mnrniloy/device_oneplus_sm8150-common.git -b 14 device/oneplus/sm8150-common
+git clone --depth=1 https://github.com/mnrniloy/device_oneplus_sm8150-common.git -b 14-R device/oneplus/sm8150-common
 echo ""
 
 echo "Cloning kernel tree"
@@ -9,7 +9,7 @@ git clone --depth=1 https://github.com/mnrniloy/kernel_oneplus_sm8150.git -b 14 
 echo ""
 
 echo "Cloning Hardware"
-git clone https://github.com/mnrniloy/hardware_oneplus.git -b 14 hardware/oneplus
+git clone https://github.com/mnrniloy/hardware_oneplus.git -b 14-R hardware/oneplus
 echo ""
 
 echo "Cloning Vendor blobs"
